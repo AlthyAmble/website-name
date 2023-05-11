@@ -1,0 +1,522 @@
+/*header styles*/
+#logo{
+	height: 110px;
+	width: 130px;
+}
+#header{
+	text-align: center;
+	padding-top: 10px;
+	background-image: url("../src/banner.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.topnav {
+	background-color: #D2B48C;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.topnav a {
+	float: center;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: #ddd;
+}
+
+body{
+	margin:0px;
+	background-color: #F5DEB3;
+}
+.intro{
+	text-align: center;
+}
+.intro img{
+	height: 500px;
+	width: 1370px;
+}
+.intro-list{
+	text-align: center;
+}
+.intro-list img{
+	height: 370px;
+	width: 1370px;
+}
+
+.best-sellers {
+  margin: 0 auto;
+  max-width: 1920px;
+  text-align: center;
+}
+.best-sellers h1 {
+	color: gray;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: -3px;
+}
+.genres h1 {
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: -3px;
+}
+
+/*Quick Recommendation style*/
+
+.book {
+	background-color: #ffffff;
+  display: inline-block;
+  width: 250px;
+  height: 410px;
+  box-shadow: 0 0 20px #aaa;
+  margin: 25px;
+  vertical-align: top;
+  transition: height 1s;
+}
+.cover {
+  height: 80%;
+  overflow: hidden;
+}
+.cover img {
+  width: 100%;
+}
+.description{
+	margin: 0 auto;
+	padding-left: 8px;
+	padding-bottom: 15px;
+}
+.book p {
+  margin-top: 12px;
+  font-size: 20px;
+}
+.book .author {
+  font-size: 15px;
+}
+
+/*GENRES information*/
+.genres {
+  margin: 0 auto;
+  max-width: 1920px;
+
+}
+.genre-box {
+	float: left;
+	display: inline-block;
+	height: 330px;
+	width: 655px;
+	margin-left: 60px;
+	margin-top:70px;
+	border-radius: 7px 7px 7px 7px;
+	box-shadow: 0 0 20px #aaa;
+}
+.genre-box a{
+	text-decoration: none;
+}
+.romance{
+	height: 330px;
+	width: 655px;
+	background-image: url("../src/romance-banner.jpg");
+	background-repeat: no-repeat;
+}
+.adventure{
+	height: 330px;
+	width: 655px;
+	background-image: url("../src/adventure-banner.jpg");
+	background-repeat: no-repeat;
+}
+.horror{
+	height: 330px;
+	width: 655px;
+	background-image: url("../src/horror-banner.jpg");
+	background-repeat: no-repeat;
+}
+.mystery{
+	height: 330px;
+	width: 655px;
+	background-image: url("../src/mystery-banner.jpg");
+	background-repeat: no-repeat;
+}
+.science-fiction{
+	height: 330px;
+	width: 655px;
+	background-image: url("../src/science-fiction-banner.jpg");
+	background-repeat: no-repeat;
+}
+.young-adult{
+	height: 330px;
+	width: 655px;
+	background-image: url("../src/young-adult-banner.jpg");
+	background-repeat: no-repeat;
+}
+.transparent{
+	height: 330px;
+	width: 655px;
+	background-color: #ffffff;
+	opacity: 0.5;
+}
+
+.genre-body {
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	height: 330px;
+	width: 655px;
+	border-radius: 0 7px 10px 7px;
+}
+
+.genre-body h2 {
+	margin: 0 0 0 38px;
+	padding-top: 35px;
+	font-size: 65px;
+}
+
+.genre-body h2 {
+	font-family: 'Bentham', serif;
+}
+
+.genre-body h3 {
+	margin: 0 0 2px 38px;
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+/*About section style*/
+
+.background-about{
+	height: 300px;
+	width: 1300px;
+	background-color: #DEB887;
+}
+.transparent-about{
+	height: 300px;
+	width: 1300px;
+	background-color: #ffffff;
+	opacity: 0.5;
+}
+.about-page {
+	display: inline-block;
+	height: 300px;
+	width: 1300px;
+	margin-left: 120px;
+	margin-top:70px;
+	border-radius: 7px 7px 7px 7px;
+	box-shadow: 0 0 20px #aaa;
+	padding-bottom: 5px;
+}
+.about-text{
+	font-weight: bold;
+	color: black;
+	height: 300px;
+	width: 1300px;
+	border-radius: 0 7px 10px 7px;
+}
+.about-text h2 {
+	text-align: left;
+	margin: 0 0 0 38px;
+	padding-top: 35px;
+	font-family: 'Bentham', serif;
+	font-size: 41px;
+}
+
+.about-text h3 {
+	text-align: center;
+	margin: 0 25px 2px 38px;
+	font-size: 19px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	line-height: 1.4;
+}
+
+/*Footer style*/
+footer{
+  background: #D2B48C;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+.footer_container{
+	max-width: 1300px;
+	margin: auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+}
+.logo h3{
+	width: 180px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.logo p{
+	width: 80px;
+	font-size: 15px;
+}
+
+.social_media{
+  margin: 20px 150px;
+}
+
+.social_media a{
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+  transition: .6s;
+}
+
+.social_media a:hover{
+  color: gold;
+}
+
+/*Product list page style*/
+.container {
+	margin: 0 auto;
+	max-width: 1960px;
+}
+.fiction h2{
+	color: #474747;
+	font-size: 40px;
+	margin-left:100px;
+	margin-bottom: -45px;
+	margin-top: 10px;
+}
+.wrapper {
+	display: inline-block;
+	height: 325px;
+	width: 710px;
+	margin-left: 40px;
+	margin-top:70px;
+	border-radius: 7px 7px 7px 7px;
+	box-shadow: 0 0 20px #aaa;
+	background-color: #ffffff;
+}
+.product-img {
+	float: left;
+}
+.product-img img {
+	width: 100%;
+	border-radius: 7px 0 0 7px;
+	display: block;
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.product-info {
+	float: left;
+	height: 325px;
+	width: 447px;
+}
+
+.product-text {
+	height: 300px;
+	width: 435px;
+	margin-right: 25px;
+}
+
+.product-text h1 {
+	margin: 0 0 0 38px;
+	padding-top: 29px;
+	font-size: 33px;
+	color: #474747;
+	text-align: left;
+}
+
+.product-text h1,
+.product-price-btn p {
+	font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+	margin: 0 0 18px 38px;
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	letter-spacing: 0.2em;
+}
+
+.product-text p {
+	width: 440px;
+	height: 170px;
+	margin: 0 0 0 38px;
+	font-family: 'Playfair Display', serif;
+	color: #8d8d8d;
+	line-height: 1.7em;
+	font-size: 16px;
+	font-weight: lighter;
+	overflow: hidden;
+}
+
+.product-price-btn {
+	height: 100px;
+	width: 317px;
+	position: relative;
+	top: -70px;
+	margin-left: 170px;
+}
+
+.product-price-btn p {
+	display: inline-block;
+	position: absolute;
+	top: -13px;
+	height: 50px;
+	font-family: 'Trocchi', serif;
+	margin: 0 0 0 47px;
+	font-size: 28px;
+	font-weight: lighter;
+	color: #474747;
+}
+
+span {
+	display: inline-block;
+	height: 50px;
+	font-family: 'Suranna', serif;
+	font-size: 28px;
+}
+
+#buy {
+	float: right;
+	display: inline-block;
+	height: 50px;
+	width: 176px;
+	margin: 0 35px 0 16px;
+	box-sizing: border-box;
+	border: transparent;
+	border-radius: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+	background-color: #D2B48C;
+	cursor: pointer;
+	outline: none;
+}
+
+#buy:hover {
+	background-color: black;
+}
+
+/*Registration/Signup style */
+.signup-box{
+	display: inline-block;
+	height: 800px;
+	width: 700px;
+	margin-left: 400px;
+	margin-top:50px;
+	border-radius: 7px 7px 7px 7px;
+	box-shadow: 0 0 5px #aaa;
+	border-style: groove;
+	padding: 16px;
+	background-color: #D2B48C;
+}
+.signup-box h1{
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Times New Roman', serif;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-top: 0;
+	margin-left: 0;
+}
+.signup-box  label{
+	font-size: 23px;
+	margin-left: 14px;
+}
+input[type=text], input[type=password], input[type=date] {
+	width: 95%;
+	padding: 15px;
+	margin: 5px 0 5px 0;
+	display: inline-block;
+	border: none;
+	background: #FDF5E6;
+	font-size: 17px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #FFEFD5;
+	outline: none;
+}
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+	display: hidden;
+}
+
+#Save {
+	background-color: #A0522D;
+	color: white;
+	padding: 16px 20px;
+	margin-top: 14px;
+	margin-bottom: 8px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	opacity:0.9;
+}
+#Cancel {
+	background-color: #A0522D;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	opacity:0.9;
+}
+#Save:hover {
+	opacity:1;
+}
+#Cancel:hover {
+	opacity:1;
+}
+
+/*Reference Page style*/
+.reference-container{
+	max-width: 1550px;
+	margin: 45px 150px 100px 150px;
+	letter-spacing: 0.2em;
+}
+.reference-container h2{
+	color: gray;
+	text-align: center;
+	font-size: 50px;
+}
+ol{
+	margin-left: 180px;
+	margin-right: 180px;
+	list-style: none;
+	font-size: 20px;
+}
+.reference-container ~ ol{
+	height: 170px;
+	margin: 0 0 0 38px;
+	font-family: 'Playfair Display', serif;
+	color: #8d8d8d;
+	line-height: 1.2em;
+	font-weight: lighter;
+}
